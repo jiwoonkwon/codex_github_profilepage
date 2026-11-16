@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#090b10" />
+    <meta name="description" content="프론트엔드 개발자 포트폴리오" />
+    <title>프론트엔드 개발자 포트폴리오</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">본문으로 건너뛰기</a>
+    <div class="noise" aria-hidden="true"></div>
+
+    <header class="site-header shell">
+      <a class="brand" href="#home" aria-label="처음으로"><span data-content="initials">YN</span><i>.</i></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span class="sr-only">메뉴 열기</span><span></span><span></span></button>
+      <nav id="site-nav" class="site-nav" aria-label="주요 메뉴">
+        <a href="#about">소개</a><a href="#skills">기술</a><a href="#projects">프로젝트</a><a href="#experience">경험</a>
+        <a class="nav-cta" data-content-href="email" data-content-mailto="email" href="mailto:you@example.com">연락하기 <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section id="home" class="hero shell" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="pulse" aria-hidden="true"></span><span data-content="availability">OPEN TO WORK</span><span class="eyebrow-location">· BASED IN SEOUL</span></p>
+          <p class="hero-index" aria-hidden="true">// 01</p>
+          <h1 id="hero-title">경험을 만드는<br /><span class="neon" data-content="role">프론트엔드</span><br />개발자<span class="neon">.</span></h1>
+          <p class="hero-intro" data-content="intro">사용자에게 자연스러운 흐름을 만들고, 팀에 오래 남는 인터페이스를 설계합니다.</p>
+          <div class="hero-actions"><a class="button primary-button" href="#projects">프로젝트 보기 <span aria-hidden="true">↓</span></a><a class="button ghost-button" data-content-href="resume" href="https://example.com/resume" target="_blank" rel="noopener noreferrer">이력서 <span aria-hidden="true">↗</span></a></div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="grid-plane"></div><div class="orb orb-one"></div><div class="orb orb-two"></div><div class="code-orbit"><span>&lt;/&gt;</span></div>
+          <span class="coordinate coord-one">37.5665° N</span><span class="coordinate coord-two">126.9780° E</span>
+          <div class="terminal-card"><div class="terminal-head"><span></span><span></span><span></span><b>portfolio.js</b></div><div class="terminal-body"><p><i>const</i> developer = {</p><p>&nbsp;&nbsp;craft: <em>'interface'</em>,</p><p>&nbsp;&nbsp;focus: <em>'people'</em>,</p><p>&nbsp;&nbsp;quality: <strong>true</strong></p><p>};<span class="cursor">_</span></p></div></div>
+          <span class="visual-mark mark-one">✦</span><span class="visual-mark mark-two">✧</span>
+        </div>
+        <a class="scroll-cue" href="#about"><span></span>SCROLL TO EXPLORE</a>
+      </section>
+
+      <section id="about" class="about section shell" aria-labelledby="about-title">
+        <div class="section-label"><span>01</span><p>ABOUT</p></div>
+        <div class="about-main"><p class="kicker">HELLO, I AM <span data-content="name">YOUR NAME</span></p><h2 id="about-title">보이지 않는 곳까지<br />매끄러운 <span class="neon">웹 경험</span>을 만듭니다.</h2><div class="about-detail"><p data-content="about">문제를 빠르게 구현하는 것에서 멈추지 않습니다. 제품의 맥락을 이해하고, 사용자가 망설이지 않도록 화면을 다듬으며, 팀이 안정적으로 발전시킬 수 있는 코드를 작성합니다.</p><a class="inline-link" data-content-href="github" href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">GitHub 살펴보기 <span aria-hidden="true">↗</span></a></div></div>
+      </section>
+
+      <section id="skills" class="skills-section section shell" aria-labelledby="skills-title">
+        <div class="section-label"><span>02</span><p>TOOLKIT</p></div>
+        <div class="skills-content"><div><p class="kicker">WHAT I WORK WITH</p><h2 id="skills-title">사용자 경험과<br /><span class="neon">코드</span> 사이에서.</h2></div><div id="skill-groups" class="skill-groups" aria-label="기술 스택"></div></div>
+      </section>
+
+      <section id="projects" class="projects section shell" aria-labelledby="projects-title">
+        <div class="section-top"><div class="section-label"><span>03</span><p>SELECTED WORK</p></div><p class="section-side-note">PROJECTS / <span id="project-count">03</span></p></div>
+        <div class="projects-heading"><h2 id="projects-title">만들고, 검증한<br /><span class="neon">프로젝트</span>들.</h2><p>문제의 맥락부터 구현의 디테일까지,<br />결과로 증명하는 작업을 소개합니다.</p></div>
+        <div id="project-list" class="project-list"></div>
+      </section>
+
+      <section id="experience" class="experience section shell" aria-labelledby="experience-title">
+        <div class="section-label"><span>04</span><p>EXPERIENCE</p></div>
+        <div class="experience-content"><div><p class="kicker">THE JOURNEY SO FAR</p><h2 id="experience-title">계속 배우고,<br /><span class="neon">함께 성장</span>합니다.</h2></div><ol id="experience-list" class="experience-list"></ol></div>
+      </section>
+
+      <section class="resume-section shell" aria-labelledby="resume-title"><div><p class="kicker">RESUME</p><h2 id="resume-title">더 자세한 이야기가<br />궁금하다면.</h2></div><a class="resume-link" data-content-href="resume" href="https://example.com/resume" target="_blank" rel="noopener noreferrer"><span>이력서 보러 가기</span><i aria-hidden="true">↗</i></a></section>
+
+      <section id="contact" class="contact shell" aria-labelledby="contact-title"><div class="contact-grid" aria-hidden="true"></div><p class="kicker">05 / LET'S CONNECT</p><h2 id="contact-title">다음 제품의<br /><span class="neon">첫 화면</span>을 함께 만들어요.</h2><a class="contact-email" data-content-href="email" data-content-mailto="email" href="mailto:you@example.com"><span data-content="email">you@example.com</span><i aria-hidden="true">↗</i></a></section>
+    </main>
+
+    <footer class="site-footer shell"><a class="brand" href="#home" aria-label="처음으로"><span data-content="initials">YN</span><i>.</i></a><p>Built with curiosity &amp; care.</p><div class="footer-links"><a data-content-href="github" href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">GITHUB <span aria-hidden="true">↗</span></a><a data-content-href="linkedin" href="https://www.linkedin.com/in/your-username/" target="_blank" rel="noopener noreferrer">LINKEDIN <span aria-hidden="true">↗</span></a></div><span class="copyright">© <span id="copyright-year"></span> <span data-content="name">YOUR NAME</span></span></footer>
+    <script src="./content.js"></script><script src="./script.js"></script>
+  </body>
+</html>
