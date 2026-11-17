@@ -21,7 +21,7 @@
 
 ## GitHub Pages 배포
 
-`.github/workflows/deploy.yml`이 포함되어 있습니다. `main` 브랜치에 push하면 GitHub Actions가 저장소 루트의 정적 파일을 GitHub Pages에 배포합니다. Node.js, `npm`, 빌드 폴더는 사용하지 않습니다.
+`.github/workflows/pages.yml`이 포함되어 있습니다. `main` 브랜치에 push하면 GitHub Actions가 저장소 루트의 정적 파일을 GitHub Pages에 배포합니다. Node.js, `npm`, 빌드 폴더는 사용하지 않습니다.
 
 1. 저장소의 **Settings → Pages**를 엽니다.
 2. **Build and deployment**의 Source에서 **GitHub Actions**를 선택합니다.
