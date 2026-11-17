@@ -1,8 +1,8 @@
 /* 포트폴리오의 실제 콘텐츠는 이 파일에서만 수정하세요. URL은 https:// 전체 주소를 사용합니다. */
 window.portfolioContent = {
   profile: {
-    name: 'YOUR NAME', initials: 'YN', role: '프론트엔드', availability: 'OPEN TO WORK',
-    intro: '사용자에게 자연스러운 흐름을 만들고, 팀에 오래 남는 인터페이스를 설계합니다.',
+    name: '김응도', initials: 'YD', role: 'progamer', availability: 'OPEN TO WORK',
+    intro: 'lck 국내 명실상부 최고의 탑 라이너',
     about: '문제를 빠르게 구현하는 것에서 멈추지 않습니다. 제품의 맥락을 이해하고, 사용자가 망설이지 않도록 화면을 다듬으며, 팀이 안정적으로 발전시킬 수 있는 코드를 작성합니다.',
     email: 'you@example.com', github: 'https://github.com/your-username', linkedin: 'https://www.linkedin.com/in/your-username/', resume: 'https://example.com/resume'
   },
